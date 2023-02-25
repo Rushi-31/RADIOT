@@ -1,0 +1,110 @@
+{
+    "intents": [
+        {
+            "tag": "time",
+            "patterns": [
+                " time",
+                "what's time now.",
+                "can you tell me the ",
+                "now",
+                " about now "
+            ],
+            "responses": [
+                "time"
+            ]
+        },
+        {
+            "tag": "open",
+            "patterns": [
+                "open",
+                "launch",
+                "open app",
+                "open notepad",
+                "open android studio",
+                "open word",
+                "open paint",
+                "launch file "
+            ],
+            "responses": [
+                "opening sir"
+            ]
+        },
+        {
+            "tag": "youtube",
+            "patterns": [
+                "search on youtube",
+                "I want to watch someting",
+                "play music on youtube",
+                "song",
+                "video"
+            ],
+            "responses": [
+                "youtube"
+            ]
+        },
+        {
+            "tag": "search",
+            "patterns": [
+                "tell me the recipe of something.",
+                "how make something",
+           
+                
+                "check wikipedia",
+                "tell me the weather today",
+                "tell me the temperature",
+                "weather today",
+                "checking",
+              
+                "searching"
+            ],
+            "responses": [
+                "searching"
+            ]
+        },
+        {
+            "tag": "close Window",
+            "patterns": [
+                "close the window.",
+                "close this",
+                "I dont need this."
+            ],
+            "responses": [
+                "closing sir.."
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "see you"
+                
+              
+            ],
+            "responses": [
+                "bye"
+            ]
+        },
+        {
+            "tag": "txt to speech",
+            "patterns": [
+                "type with me",
+                "write along with me",
+                "type that I am saying",
+                "convert my voice to text"
+            ],
+            "responses": [
+                "typing"
+            ]
+            },
+            {
+                "tag": "save",
+                "patterns":[
+                    "save this file",
+                    "save this as",
+                    "save as"
+                ],
+                "responces": "saving"
+            }
+        
+    ]
+}
