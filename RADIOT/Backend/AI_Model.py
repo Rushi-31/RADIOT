@@ -2,7 +2,7 @@ import openai
 import os
 from dotenv import load_dotenv
 # import Listen, Speak  
-openai.api_key = "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"
+openai.api_key = ""
 load_dotenv()
 completion = openai.Completion()
 
